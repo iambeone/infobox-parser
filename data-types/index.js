@@ -7,6 +7,7 @@ import unmarkedLists from './unmarkedLists';
 import plainLists from './plainLists';
 import marriages from './marriages';
 import nbay from './nbay';
+import hlist from './hlist';
 import other from './other';
 import birthDates from './birthDates';
 import labeledDates from './labeledDates';
@@ -31,6 +32,7 @@ const dataTypes = [
   url,
   convert,
   nbay,
+  hlist,
   // other needs to always be after specific data dypes
   other,
   // Lists should be last
